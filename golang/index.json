@@ -30,7 +30,9 @@
     "load": [
         {
             "author": "abermukatay",
-            "scenario": "istio-example"
+            "scenario": "istio-example",
+            "required": true,
+            "failMessage": "Не найдены необходимые файлы из упражнения по openfaas"
         }
     ],
     "save": true,
